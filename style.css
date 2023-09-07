@@ -37,6 +37,7 @@ h1{
   object-fit: cover;
   object-position: center;
 }
+
 /* css de nosotros finaliza */
 
 /* css catalogo inicia */
@@ -62,8 +63,20 @@ h1{
   margin: 5px;
 }
 
-/* galeria finaliza */
+#galeria img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
 
+/* galeria finaliza */
+.grow {
+	display: inline-block;
+
+	&:hover {
+		transform: scale(1.1);
+    transition: 1s;
+	}
+}
 /* trabajo inicia */
 
 /* trabajo finaliza */
