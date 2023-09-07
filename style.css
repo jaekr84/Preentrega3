@@ -20,6 +20,10 @@
   color: white;
 }
 
+h1{
+  text-align: center;
+}
+
 /* css de nosotros inicia */
 .carousel-item{
   max-height: 30rem;
@@ -59,3 +63,15 @@
 }
 
 /* galeria finaliza */
+
+/* trabajo inicia */
+
+/* trabajo finaliza */
+
+/* contacto inicia */
+.datos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* contacto finaliza */
