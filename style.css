@@ -105,3 +105,11 @@ h1{
   justify-content: center;
 }
 /* contacto finaliza */
+
+/* footer inicia */
+.footernav a{
+  text-decoration: none;
+  display: block;
+  color: grey;
+}
+/* footer finaliza */
