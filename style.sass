@@ -1,0 +1,139 @@
+*
+    margin: 0
+    padding: 0
+$color1:#40F030
+/*#40F030 para botones*/   
+$color2:#07FAED
+/*#07FAED para botones*/   
+$color3:#041AE0
+/*#041AE0 para botones*/   
+$color4:#DC02FA
+/*#DC02FA para botones*/   
+$color5:#0F0807
+/*#0F0807 para botones*/   
+
+/*efectos comienza*/ 
+
+.grow
+    display: inline-block
+
+    &:hover
+        transform: scale(1.1)
+        transition: 1s
+
+#galeria 
+    img:hover
+        transform: scale(1.05)
+        transition: 1s
+
+
+@keyframes anilogo
+    from
+        color: $color1
+
+    to
+        color: $color4
+
+@keyframes rotar
+    from
+        transform: rotateY(180deg)
+    to
+        transform: rotateY(360deg) 
+
+/*efectos finaliza*/ 
+
+/* index inicia */
+.main-logo
+    font-size: 15rem
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-weight: bolder
+
+.card-btn
+    text-decoration: none
+    background-color: $color4
+    padding: 5px
+    border-radius: 8px
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $color3
+
+h1
+    text-align: center
+    animation-name: anilogo
+    animation-duration: 5s
+    animation-iteration-count: infinite
+    color: $color4
+
+/* index finaliza */
+
+/* css de nosotros inicia */
+.carousel-item
+    max-height: 30rem
+    object-fit: cover
+    object-position: center
+
+.card 
+    img
+        width: auto
+        height: 14rem
+        object-fit: cover
+        object-position: center
+
+/* css de nosotros finaliza */
+
+/* css catalogo inicia */
+.box 
+    img
+        height: 300px
+        width: 200px
+        border: 2px solid black
+
+/* css catalogo finaliza */
+
+/* galeria comienza */
+#galeria
+    padding: 15px
+
+#galeria img
+    width: 100%
+    height: 600px
+    border-radius: 15px
+    object-fit: cover
+    object-position: center
+    border: 1px solid black
+    margin: 5px
+
+
+/* galeria finaliza */
+
+/* trabajo inicia */
+
+/* trabajo finaliza */
+
+/* contacto inicia */
+.datos
+    display: flex
+    align-items: center
+    justify-content: center
+
+/* contacto finaliza */
+
+/* footer inicia */
+.footerlogo
+    color: $color3
+    filter: drop-shadow(0px 7px 5px $color2)
+    animation-name: rotar
+    animation-duration: 5s
+    animation-iteration-count: infinite
+    animation-direction: alternate-reverse
+
+
+
+.footernav 
+    a
+        text-decoration: none
+        display: block
+        color: grey
+
+/* footer finaliza */
