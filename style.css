@@ -122,6 +122,17 @@ p {
 }
 
 /* catalogo finaliza */
+/*contacto comienza*/ 
+.mapa {
+  width: 100%;
+  height: 400px;
+}
+
+.datos {
+  font-size: 2rem;
+}
+
+/*contacto finaliza*/ 
 /* galeria comienza */
 #galeria {
   padding: 15px;
@@ -139,21 +150,7 @@ p {
   margin: 5px;
 }
 
-/* galeria finaliza */
-/* trabajo inicia */
-/* trabajo finaliza */
-/* contacto inicia */        
-.datos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-ul h3 {
-  margin: 2px;
-}
-
-/* contacto finaliza */
+/* galeria finaliza */ 
 /* footer inicia */
 .redessociales a i {
   font-size: 2rem;
