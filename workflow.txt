@@ -1,0 +1,6 @@
+- [x] corregir faltas de ortografia
+- [x] agregar un marquee arriba del video y abajo en index
+- [x] falta modificar ubicaciones de las sucursales de la pagina nosotros
+- [x] mejorar calidad de imágenes del carrusel de la pagina de nosotros
+- [x] quitar los textos de las redes sociales de todas las paginas
+- [x] incluir un hover en los los links de navbar
