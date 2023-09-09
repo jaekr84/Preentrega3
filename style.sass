@@ -35,6 +35,29 @@ p
     color: $color5   
 /*efectos comienza*/ 
 
+.btn3::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    display: block
+    width: 100%
+    height: 100%
+    z-index: -1
+    -webkit-transform: scaleX(.3)
+    transform: scaleX(.3)
+    opacity: 0
+    transition: all .3s
+
+.btn3:hover::before
+    opacity: 1
+    background-color: $color4
+    -webkit-transform: scaleX(1)
+    transform: scaleX(1)
+    transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s
+    transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+
+
 .grow
     display: inline-block
 
@@ -71,6 +94,34 @@ p
     font-size: 15rem
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     font-weight: bolder
+    
+.span1
+    color: $color1
+.span2
+    color: $color2
+    background-color: $color5
+.span3
+    color: $color3
+.span4
+    color: $color4
+
+.btn3
+    padding: 15px 100px
+    color: $color5
+    text-transform: uppercase
+    text-align: center
+    position: relative
+    justify-content: center
+    border: 1px solid $color5
+    width: 800px
+    box-shadow: 2px 2px 15px $color1
+
+
+
+.coleccionbtn
+    text-decoration: none
+    display: flex
+    justify-content: center
 
 .card-btn
     text-decoration: none
@@ -82,16 +133,22 @@ p
     align-items: center
     color: $color2
 /* index finaliza */
+
 /* nosotros inicia */
 .carousel-item
     max-height: 30rem
     object-fit: cover
     object-position: center
 
-.sucursales
-    display: flex
-    justify-content: center
-    align-items: center
+#sucursales
+    img
+        width: 100%
+        height: 300px
+        border-radius: 15px
+        object-fit: cover
+        object-position: center
+        border: 1px solid black
+        margin: 5px
 
 .card
     text-align: center
@@ -106,6 +163,7 @@ p
         border: 2px solid black
 
 /* catalogo finaliza */
+
 /*contacto comienza*/ 
 .mapa 
     width: 100%   
@@ -114,6 +172,19 @@ p
 .datos
     font-size: 2rem
 /*contacto finaliza*/ 
+
+// nosotros comienza
+h6
+    text-align: center
+
+.sucursales
+    width: 100%
+    height: 400px
+    img
+        object-fit: cover
+        object-position: center
+
+// nosotros finaliza
 /* galeria comienza */
 #galeria
     padding: 15px
