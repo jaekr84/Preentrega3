@@ -1,6 +1,5 @@
 
 # repocoder
-2da entrega de coderhouse
 # 💫 About Me:
 👨🏻‍🎓 Graphic designer<br>👨‍👩‍👧 Casado con una hija<br>🇰🇷 🇺🇸 🇦🇷 Hablo 3 idiomas<br>🌱 Emprendedor<br>Experiencias en :<br>👨🏻‍🔬 Galvanoplastia<br>👕 Fabricación y venta mayorista y minorista de ropa<br>🔅 Taller de estamperia y termoestamperia<br>🔥 taller de fundición de accesorios
 
